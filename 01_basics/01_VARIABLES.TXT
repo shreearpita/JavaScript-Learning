@@ -1,0 +1,14 @@
+VARIABLES
+
+Def : Variables are the name given to the memory locations where the values are stored.
+
+TYPES OF DECLARATION in JavaScript : 
+1. var : used to declare local and global variables.
+2. let : declared in a bloack scope local variable but the values could be changed
+3. const : declared in a block scope local variable but the values couldn't be changed. Read-Only.
+
+NAMING A VARIABLE :
+1. Starts with - A-Z, a-z, _ , $
+2. Do not starts with digits
+3. Unicode letters and unicode escape sequences can be used.
+
