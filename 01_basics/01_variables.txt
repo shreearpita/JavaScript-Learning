@@ -11,4 +11,18 @@ NAMING A VARIABLE :
 1. Starts with - A-Z, a-z, _ , $
 2. Do not starts with digits
 3. Unicode letters and unicode escape sequences can be used.
+Example : temp, $x, _name
+
+UNDECLARED VARIABLES : 
+- variables declared without using a keyword like const, let, var.
+
+DECLARATION & INITIALIZATION : 
+let x = 10;
+let x : declaration
+10 : initializer (it is optional in var and let)
+let x; x=10
+const x; //SyntaxError
+
+VARIABLE SCOPE {}
+- 
 
