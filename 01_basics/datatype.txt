@@ -1,0 +1,40 @@
+PRIMITIVE DATATYPES
+
+1. String
+2. Number
+3. Boolean
+4. null
+5. undefined
+6. Symbol : to make any value unique
+7. BigInt
+
+REFERENCE DATATYPES/NON-PRIMITIVE
+
+- references could be directly allocated in the memory
+
+1. Array
+const sorcerer = ["Gojo", "Nanami", "Megumi", "Yuji"]
+2. Objects
+let myObj = {
+    name : "Gojo Satoru",
+    age : 28,
+}
+3. Functions
+const myFunction = function (){
+    console.log("Hello world");
+}
+
+* JS is a dynamically typed language *
+
+DEFINING THE SYMBOL 
+
+const id = Symbol('456')
+const anotherId = Symbol ('123)
+console.log(id === anotherId) //false 
+
+BigInt
+CONST bigNumber = 12345678945613n
+
+KNWOING THE DATATYPES
+console.log(typeof (var_name));
+
