@@ -59,6 +59,7 @@ The resources below are curated learning materials and references. (Further reso
 - [JavaScript Roadmap](https://roadmap.sh/javascript)
 - [Youtube Series](https://youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&si=yincL-vRR9ZqGcSK)
 - [MDN JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [ECMA Script](https://tc39.es/ecma262/)
 
 
 ---
