@@ -5,3 +5,7 @@ console.log(Math.ceil(4.2));//top value
 console.log(Math.floor(4.2));// lower value
 console.log(Math.min(4, 6, 8, 2));
 console.log(Math.max(4, 6, 8, 2));
+
+console.log(Math.random());// 0<=random<=1
+console.log(Math.random()*10); //>1
+console.log(Math.random()*10+1); //
