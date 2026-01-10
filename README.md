@@ -28,7 +28,7 @@ JavaScript-Learning/
 
 ├── 01-basics/
 
-├── 02-control-flow/
+├── 02-arrays-objects/
 
 ├── 03-functions/
 
