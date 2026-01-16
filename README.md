@@ -32,7 +32,7 @@ JavaScript-Learning/
 
 ├── 03-functions/
 
-├── 04-objects-arrays/
+├── 04-control-flow/
 
 ├── 05-advanced/
 
