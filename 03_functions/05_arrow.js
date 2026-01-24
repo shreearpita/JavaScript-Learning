@@ -54,7 +54,18 @@ const demon = () => {
 // }
 
 // Implicit Return
-const addTwo = (num1, num2) => num1 + num2
+//const addTwo = (num1, num2) => num1 + num2
+// const addTwo = (num1, num2) => (num1 + num2)
 
+// {} : return keyword reuired, () : return keyword not required
+
+//const addTwo = (num1, num2) => {demonname: "Akaza"} // undefined : object cannot be returned
+
+const addTwo = (num1, num2) => ({demonname: "Akaza"})
 
 console.log(addTwo(2,3))
+
+
+const myArray = [2,5,3,7,8]
+
+//myArray.forEach((
