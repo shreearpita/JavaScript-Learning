@@ -7,7 +7,7 @@
 
 //shift+alt+down arrow : copies the block of code.
 
-const month = 3
+const month = "March"
 
 switch (month) {
     case 1:
@@ -16,10 +16,10 @@ switch (month) {
     case 2:
         console.log("February");
         break;
-    case 3:
+    case "March":
         console.log("March");
         break;
-
+ 
     default:
         break;
 }
