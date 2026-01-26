@@ -3,7 +3,6 @@
 // ["", "", ""]
 // [{}, {}, {}]
 
-// Arrays
 const arr = [1,2,3,4,5]
 for (const num of arr) {
     // object : on which element the loop is to be applied. (not the general object in js)
@@ -16,14 +15,12 @@ for (const greet of greetings) {
     
 }
 
-//Objects
+// for-in
+const programming = ["js", "rb", "py", "java", "cpp"]
 
-const myObject = {
-    game1 : 'NFS',
-    game2 : 'Spiderman'
+for (const key in programming) {
+    //console.log(key);// 0 1 2 3 4
+    console.log(programming[key]);// array elements
 }
 
-// for (const [key,value] of myObject) {
-//     console.log(key, ':', value);
-//     // Not iterable : 
-// }
+
