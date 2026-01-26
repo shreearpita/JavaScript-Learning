@@ -1,3 +1,6 @@
+/*Array:for of, Object:for in*/
+
+
 // for of
 
 // ["", "", ""]
@@ -20,7 +23,27 @@ const programming = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in programming) {
     //console.log(key);// 0 1 2 3 4
-    console.log(programming[key]);// array elements
+    //console.log(programming[key]);// array elements
 }
 
+// for-Each : callback function
 
+const coding = ["js", "ruby", "go", "R", "python", "cpp", "swift"]
+
+// coding.forEach( function greet(val){
+//     console.log(val);
+// });
+
+// coding.forEach((item) => {
+//     console.log(item);
+    
+// });
+
+// function printMe(item){
+//     console.log(item);
+// }
+// coding.forEach(printMe)
+
+coding.forEach((item, index, arr)=>{
+    console.log(item, index, arr);
+})
