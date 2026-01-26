@@ -8,7 +8,7 @@ const myObject = {
 }
 
 for (const key in myObject) {
-    console.log(`${key} shortcut is for ${myObject[key]}`);
+    //console.log(`${key} shortcut is for ${myObject[key]}`);
 }
 
 // for-of
@@ -21,3 +21,28 @@ const myObject2 = {
 //     console.log(key, ':', value);
 //     // Not iterable : 
 // }
+
+// Obj in Array
+
+const myCoding = [
+    {
+    languageName: "JavaScript",
+    languageFileName: "js"
+    },
+    {
+    languageName: "Python",
+    languageFileName: "py"
+    },
+    {
+    languageName: "C++",
+    languageFileName: "cpp"
+    }
+]
+
+myCoding.forEach((item)=>{
+    console.log(item.languageName);
+    
+})
+
+// real-world : product details in database (cards)
+
