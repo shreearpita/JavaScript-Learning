@@ -8,10 +8,10 @@ map.set('Fr', "France")
 //console.log(map);
 
 for (const key of map) {
-    console.log(key);    
+    //console.log(key);    
 }
 for (const [key, value] of map) {
-    console.log(key, ':', value);    
+    //console.log(key, ':', value);    
 }
 
 /*key : aray form output 
@@ -19,3 +19,7 @@ for (const [key, value] of map) {
 ['USA', 'United State of America']
 ['Fr', 'France]
 [key, value] : Array destructuring: each element // IN : India*/
+
+for (const key in Map) {
+    console.log(key); // no output : not iterable.
+}
