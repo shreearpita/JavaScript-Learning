@@ -44,6 +44,13 @@ const coding = ["js", "ruby", "go", "R", "python", "cpp", "swift"]
 // }
 // coding.forEach(printMe)
 
-coding.forEach((item, index, arr)=>{
-    console.log(item, index, arr);
+// coding.forEach((item, index, arr)=>{
+//     console.log(item, index, arr);
+// })
+
+const values = coding.forEach((item)=>{
+    //console.log(item);
+    return item
 })
+
+console.log(values);
