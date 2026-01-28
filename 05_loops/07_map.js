@@ -20,6 +20,16 @@ for (const [key, value] of map) {
 ['Fr', 'France]
 [key, value] : Array destructuring: each element // IN : India*/
 
-for (const key in Map) {
-    console.log(key); // no output : not iterable.
-}
+// for (const key in Map) {
+//     console.log(key); // no output : not iterable.
+// }
+
+const myNumber = [1,2,3,4,5,6,7,8,9,10]
+
+//const newNums = myNumber.map( (num) => num + 10);
+
+/* Chaining */
+const newNums = myNumber
+.map((num)=> num*10)
+.map((num)=>)
+console.log(newNums);
